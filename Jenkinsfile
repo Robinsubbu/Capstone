@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        GITHUB_CREDS = 'Github_Token'
+        GITHUB_CREDS = 'github'
         DOCKERHUB_CREDS = 'DockerHub_Token'
         SSH_CREDS = 'ubuntu'
         DOCKER_IMAGE = "Robin S/nodejs-app"
