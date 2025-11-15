@@ -1,6 +1,5 @@
 pipeline {
     agent any
-    # Hellooooooooooowwwwwwww
 
     environment {
         GITHUB_CREDS = 'github'
